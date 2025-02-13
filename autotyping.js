@@ -1,8 +1,8 @@
-var AutoTyping = (function (e) {
-  var t = {};
+let AutoTyping = (function (e) {
+  let t = {};
   function r(n) {
     if (t[n]) return t[n].exports;
-    var i = (t[n] = { i: n, l: !1, exports: {} });
+    let i = (t[n] = { i: n, l: !1, exports: {} });
     return e[n].call(i.exports, i, i.exports, r), (i.l = !0), i.exports;
   }
   return (
@@ -20,13 +20,13 @@ var AutoTyping = (function (e) {
     (r.t = function (e, t) {
       if ((1 & t && (e = r(e)), 8 & t)) return e;
       if (4 & t && "object" == typeof e && e && e.__esModule) return e;
-      var n = Object.create(null);
+      let n = Object.create(null);
       if (
         (r.r(n),
         Object.defineProperty(n, "default", { enumerable: !0, value: e }),
         2 & t && "string" != typeof e)
       )
-        for (var i in e)
+        for (let i in e)
           r.d(
             n,
             i,
@@ -37,7 +37,7 @@ var AutoTyping = (function (e) {
       return n;
     }),
     (r.n = function (e) {
-      var t =
+      let t =
         e && e.__esModule
           ? function () {
               return e.default;
